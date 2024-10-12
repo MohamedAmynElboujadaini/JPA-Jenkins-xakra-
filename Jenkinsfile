@@ -21,6 +21,7 @@ pipeline {
                             -Dsonar.login=squ_7e47860cbf91e8e814283d6ae99dfa93920f3c45 ^
                             -Dsonar.sources=./src ^
                             -Dsonar.java.binaries=./target/classes
+                            -X
                         """
                     }
                 }
