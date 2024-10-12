@@ -17,7 +17,7 @@ pipeline {
                         bat """
                             ${scannerHome}\\bin\\sonar-scanner.bat ^
                             -Dsonar.projectKey=sonar-xakra ^
-                            -Dsonar.host.url=http://localhost:9000/ ^
+                            -Dsonar.host.url=http://localhost:9000 ^
                             -Dsonar.login=squ_04042c544518efd9303c51611c0e89b04a4a05fb ^
                             -Dsonar.sources=./src ^
                             -Dsonar.java.binaries=./target/classes
